@@ -1,3 +1,5 @@
+// O(n) time, O(1) space complexity. No sorting
+
 function findThreeLargestNumbers(array) {
     const threeLargest = [null, null, null]
     for (const num of array) {
@@ -26,3 +28,4 @@ function shiftAndUpdate(array, num, idx) {
         }
     }
 }
+
